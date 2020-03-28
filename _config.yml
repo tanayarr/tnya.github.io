@@ -1,0 +1,65 @@
+### Site Settings ###
+title               : tnya
+description         : >-
+                      "I turn waste :wastebasket: into art,
+
+                      I use sustainable practices in all spheres of life."
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Tanaya Rao Raj
+  image             : https://en.bcdn.biz/Images/2018/6/12/27565ee3-ffc0-4a4d-af63-ce8731b65f26.jpg
+# behance           : your_username
+# dribbble          : your_username
+  email             : tanayarr@gmail.com
+# facebook          : your_username
+  instagram         : tanayarraj
+  linkedin          : tanaya-raj-00a157160
+# medium            : your_username
+# vimeo             : your_username
+  youtube           : UC1whWbAoNmqBKGrgRAUaLdQ
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
