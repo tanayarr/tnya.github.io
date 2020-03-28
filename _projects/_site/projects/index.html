@@ -47,9 +47,9 @@ I use sustainable practices in all spheres of life."">
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
-<a class="nav-item nav-link " href="/projects/">Projects</a>
+<a class="nav-item nav-link active" href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
 
       <a class="nav-item nav-link " href="/about/">About</a>
 
@@ -59,65 +59,49 @@ I use sustainable practices in all spheres of life."">
   </div>
 
 </nav>
-  <div class="col-lg-10 mx-auto mt-5 post">
-  <h1><b>A better Hello World</b></h1>
+  <!-- Remote Projects JS -->
+<script src="/assets/js/remote-projects.js"></script>
 
-<p class="post-metadata text-muted">
-  23 July 2016 -  
-  <b>less than 1 min read time</b>
+<div class="card-columns m-3 mt-5">
 
-  <br>Tags: 
-    
-    <a class="text-decoration-none no-underline" href="/blog/tags#software-development">
-      <span class="tag badge badge-pill text-primary border border-primary">Software Development</span>
-    </a>
-    </p>
+  <!-- Remote Projects -->
+  
 
-<p>Source: <a href="https://ricostacruz.com/til/a-better-hello-world">RICO STA. CRUZ</a></p>
+  <!-- Local Projects -->
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="https://www.google.com" class="project card text-dark"><img id="placeholder-project-img" class="card-img-top" src="https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png" alt="PlaceHolder Project"><div class="card-body">
+      <h5 id="placeholder-project-name" class="card-title">PlaceHolder Project
+      </h5>
+      <p id="placeholder-project-desc" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p id="placeholder-project-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">nothing</span><span class="badge badge-pill text-primary border border-primary ml-1">important</span></p>
+    </div>
+  </a>
+</div>
 
-<p>The “Hello world” program is usually the first introduction to any programming language. It looks like this in the C programming language:</p>
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/projects/2-awesome-project" class="project card text-dark"><img id="the-movies-project-img" class="card-img-top" src="https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png" alt="The Movies Project"><div class="card-body">
+      <h5 id="the-movies-project-name" class="card-title">The Movies Project
+      </h5>
+      <p id="the-movies-project-desc" class="card-text">This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!</p>
+      <p id="the-movies-project-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">C#</span><span class="badge badge-pill text-primary border border-primary ml-1">XML</span><span class="badge badge-pill text-primary border border-primary ml-1">WPF</span></p>
+    </div>
+  </a>
+</div>
 
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* hello.c */</span>
-<span class="cp">#import &lt;stdio.h&gt;
-</span>
-<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
-  <span class="n">printf</span><span class="p">(</span><span class="s">"Hello, world!"</span><span class="p">);</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="https://github.com/YoussefRaafatNasry" class="project card text-dark"><div class="card-body">
+      <h5 id="empty-project-name" class="card-title">Empty Project
+      </h5>
+      <p id="empty-project-desc" class="card-text">This project has no image or showcase page, but it is still a beautiful project inside out!</p>
+      <p id="empty-project-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Node JS</span><span class="badge badge-pill text-primary border border-primary ml-1">JavaScript</span><span class="badge badge-pill text-primary border border-primary ml-1">HTML</span><span class="badge badge-pill text-primary border border-primary ml-1">CSS</span></p>
+    </div>
+  </a>
+</div>
 
-<p>It demonstrates the minimum amount you need to write a C program. In more modern languages however, this example isn’t as useful anymore. Here’s the same example in Python:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># hello.py
-</span><span class="k">print</span> <span class="s">"Hello, world!"</span>
-</code></pre></div></div>
-
-<h2 id="a-better-hello-world">A better hello world</h2>
-
-<p>In today’s world of more succint programming languages, we need a different “hello world” to demonstrate language features better. Here’s what I propose:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// hello.js
-function getGreeting (name) {
-  return `Hello, ${name}!`
-}
-
-const message = getGreeting('world')
-console.log(message)
-</code></pre></div></div>
-
-<p>This simple example demonstrates a few more things than printing strings:</p>
-
-<ul>
-  <li>How to write a function with an argument</li>
-  <li>Returning values from functions</li>
-  <li>How to use variables</li>
-  <li>The naming convention for functions (camelCase versus snake_case)</li>
-  <li>String concatenation</li>
-  <li>Comments</li>
-</ul>
-
+  
 
 </div>
+
   </main>
 
   <footer class="mt-auto py-3 text-center">
