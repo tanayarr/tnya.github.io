@@ -9,8 +9,8 @@ weight: 3
 
 Hi I am **Tanaya Rao Raj** :wave:,<br>
 
-I strongly believe in the concept of the 3 R’s (Reduce, Reuse and Re-cycle) and have realized that there is a fourth that exists, that we ignore – ‘Refuse’. These values are an integral part of not only my art but also my life, both slowly merging into unison as everyday experiences, observations and interactions transform into a way of becoming a part of my practice.
-A trained painter, I experiment with various drawing and painting mediums to create my compositions. The visuals are mostly what my 'mind's eye' can see: floating objects, nature, abstracted faces and compositions. The textural quality of the works is s
+A trained painter, I experiment with various drawing and painting mediums to create my compositions. The visuals are mostly what my 'mind's eye' can see: floating objects, nature, abstracted faces and compositions. The textural quality of the works is enhanced by using day to day found materials and objects such as cement, locks and keys, found discarded surfaces etc. The surfaces often created without any recognisable forms create a world or a *being* of their own.
+
 <div class="row">
 {% include about/timeline.html %}
 </div>

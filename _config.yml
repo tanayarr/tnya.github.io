@@ -1,9 +1,10 @@
 ### Site Settings ###
 title               : tnya
 description         : >-
-                      "I turn waste :wastebasket: into art,
-
-                      I use sustainable practices in all spheres of life."
+                      "
+                      I create visuals;
+                      that each narrate a story through a play of form, colour and texture
+                      "
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : tanayarr/tnya.github.io # Change to <your-username>/<your-username>.github.io
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -25,7 +26,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Tanaya Rao Raj
-  image             : https://en.bcdn.biz/Images/2018/6/12/27565ee3-ffc0-4a4d-af63-ce8731b65f26.jpg
+  image             : ./images/logo/tnya.png
 # behance           : your_username
 # dribbble          : your_username
   email             : tanayarr@gmail.com
