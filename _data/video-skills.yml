@@ -1,11 +1,7 @@
-- name: HTML5/CSS3
-  percentage: 90
+- name: Premier Pro CC
+  percentage: 80
   color: danger
 
-- name: Go
-  percentage: 80
+- name: Photoshop CC
+  percentage: 60
   color:
-
-- name: Python
-  percentage: 70
-  color: dark
