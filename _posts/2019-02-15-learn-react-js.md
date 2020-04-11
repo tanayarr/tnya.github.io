@@ -19,4 +19,8 @@ Fade II - The foreground seems to be in the process of getting absorbed and even
 
 Fade - The pastel palette reveals the shades of grey that exist within nature. This grey like nature itself possesses a sense of balance in itself.
 
-Camouflage - Amidst the splash of colours, the small patch of newspaper gets camouflaged. 
+Camouflage - Amidst the splash of colours, the small patch of newspaper gets camouflaged.
+
+Blur - The storm of colours blurs one's understanding of what one can perceive. The viewer is allowed to have his own questions and ideas around 'Blur'.
+
+Artless - Newspaper and foil, both recyclable substances or 'poor' materials and fall way below in the hierarchy of materials in art. 'Artless' represents this irony and at the same time glorifies their existence.
